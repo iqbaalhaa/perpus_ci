@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col m 12">
-		<h5>Profil Perpustakaan SMAN 1 NAGRAK</h5>
+		<h5>Profil Perpustakaan MTsN 5 Kerinci</h5>
 	</div>
 </div>
 
@@ -9,31 +9,30 @@
 		<div class="card-panel teal darken-2 white-text">
 			<h6><b>Visi</b></h6>
 			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni natus est, iste quae at deleniti, animi
-				maiores minus explicabo corporis cupiditate, reiciendis non facilis quasi assumenda laudantium. Ab,
-				molestiae odio!
+				Menjadi pusat informasi dan literasi yang unggul, mendukung terciptanya budaya membaca dan pembelajaran berkualitas di lingkungan MTsN 5 Kerinci.
 			</p><br>
 			<h6><b>Misi</b></h6>
 			<li>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolore.
+				Menyediakan koleksi buku dan sumber informasi yang lengkap, relevan, dan terupdate untuk mendukung kebutuhan akademik dan non-akademik.
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid magnam assumenda ipsa praesentium.
+				Meningkatkan minat baca dan literasi digital bagi seluruh warga sekolah.
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Menyediakan layanan perpustakaan yang cepat, mudah, dan ramah pengguna melalui sistem informasi terintegrasi.
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti distinctio.
+				Menjalin kerjasama dengan pihak terkait untuk pengembangan koleksi dan layanan perpustakaan.
 			</li>
 		</div>
 	</div>
-    <div class="col m6">
-        <div class="card-panel teal darken-2 white-text">
-            <h6><b>Identitas Perpustakaan</b></h6><hr>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum eveniet quod atque animi architecto ad distinctio, magnam eaque non dicta commodi omnis reiciendis libero quaerat vel saepe suscipit voluptate excepturi fuga voluptatibus ut. Molestiae atque quis in rem omnis reiciendis facilis necessitatibus, enim inventore libero provident perferendis eius impedit nostrum magni voluptatem quia tempore nobis ipsum excepturi consequatur adipisci sequi repellat tenetur! Nam dolores perferendis, culpa beatae accusantium nemo, nostrum laboriosam quidem eos aspernatur saepe delectus atque iure, voluptatibus id officiis voluptatem fuga nesciunt. Beatae harum sint pariatur.
-            </p>
-        </div>
-    </div>
+	<div class="col m6">
+		<div class="card-panel teal darken-2 white-text">
+			<h6><b>Identitas Perpustakaan</b></h6>
+			<hr>
+			<p>
+				Perpustakaan MTsN 5 Kerinci berlokasi di Jl. Pendidikan No. 123, Desa Kerinci, Kecamatan Kerinci, Kabupaten Kerinci, dan dapat dihubungi melalui telepon (0123) 456789 atau email perpustakaan@mtsn5kerinci.sch.id. Perpustakaan ini buka pada hari Senin-Kamis pukul 08.00-15.00 WITA, Jumat pukul 08.00-12.00 WITA, dan Sabtu pukul 08.00-13.00 WITA, sedangkan Minggu dan hari libur tutup. Dikelola oleh [Nama Kepala Perpustakaan] bersama staf yang terdiri dari [Nama Staf 1] sebagai Pustakawan, [Nama Staf 2] sebagai Asisten Pustakawan, dan [Nama Staf 3] sebagai Admin Sistem Informasi, perpustakaan ini menyediakan fasilitas lengkap seperti ruang baca nyaman, koleksi buku cetak dan digital, akses internet gratis, ruang diskusi, serta layanan peminjaman online untuk mendukung kebutuhan literasi dan pembelajaran warga sekolah.
+			</p>
+		</div>
+	</div>
 </div>

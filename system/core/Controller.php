@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CodeIgniter
  *
@@ -35,7 +36,7 @@
  * @since	Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
  * Application Controller Class
@@ -49,7 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/general/controllers.html
  */
-class CI_Controller {
+class CI_Controller
+{
 
 	/**
 	 * Reference to the CI singleton
@@ -59,23 +61,171 @@ class CI_Controller {
 	private static $instance;
 
 	/**
+	 * CI_Loader instance
+	 *
+	 * @var CI_Loader
+	 */
+	public $load;
+
+	/**
+	 * CI_Benchmark instance 
+	 *
+	 * @var CI_Benchmark
+	 */
+	public $benchmark;
+
+	/**
+	 * CI_Hooks instance
+	 *
+	 * @var CI_Hooks 
+	 */
+	public $hooks;
+
+	/**
+	 * CI_Config instance
+	 *
+	 * @var CI_Config
+	 */
+	public $config;
+
+	/**
+	 * CI_Log instance
+	 *
+	 * @var CI_Log
+	 */
+	public $log;
+
+	/**
+	 * CI_URI instance
+	 *
+	 * @var CI_URI
+	 */
+	public $uri;
+
+	/**
+	 * CI_Router instance
+	 *
+	 * @var CI_Router
+	 */
+	public $router;
+
+	/**
+	 * CI_Output instance
+	 *
+	 * @var CI_Output
+	 */
+	public $output;
+
+	/**
+	 * CI_Security instance
+	 *
+	 * @var CI_Security
+	 */
+	public $security;
+
+	/**
+	 * CI_Input instance
+	 *
+	 * @var CI_Input
+	 */
+	public $input;
+
+	/**
+	 * CI_Lang instance
+	 *
+	 * @var CI_Lang
+	 */
+	public $lang;
+
+	/**
+	 * CI_DB instance
+	 *
+	 * @var CI_DB
+	 */
+	public $db;
+
+	/**
+	 * CI_UTF8 instance
+	 *
+	 * @var CI_UTF8
+	 */
+	public $utf8;
+
+	/**
+	 * CI_Email instance
+	 *
+	 * @var CI_Email
+	 */
+	public $email;
+
+	/**
+	 * CI_Session instance
+	 *
+	 * @var CI_Session
+	 */
+	public $session;
+
+	/**
+	 * CI_Form_validation instance
+	 *
+	 * @var CI_Form_validation
+	 */
+	public $form_validation;
+
+	/**
+	 * CI_Upload instance
+	 *
+	 * @var CI_Upload
+	 */
+	public $upload;
+
+	/**
+	 * CI_Encryption instance
+	 *
+	 * @var CI_Encryption
+	 */
+	public $encryption;
+
+	/**
+	 * Library instances
+	 */
+	public $pagination;
+	public $calendar;
+	public $cart;
+	public $ftp;
+	public $image_lib;
+	public $javascript;
+	public $table;
+	public $trackback;
+	public $unit_test;
+	public $user_agent;
+	public $xmlrpc;
+	public $zip;
+
+	/**
+	 * Model instances
+	 */
+	public $Buku_model;
+	public $Perpus_model;
+	public $mread;
+
+	/**
 	 * Class constructor
 	 *
 	 * @return	void
 	 */
 	public function __construct()
 	{
-		self::$instance =& $this;
+		self::$instance = &$this;
 
 		// Assign all the class objects that were instantiated by the
 		// bootstrap file (CodeIgniter.php) to local class variables
 		// so that CI can run as one big super object.
-		foreach (is_loaded() as $var => $class)
-		{
-			$this->$var =& load_class($class);
+		foreach (is_loaded() as $var => $class) {
+			$this->$var = &load_class($class);
 		}
 
-		$this->load =& load_class('Loader', 'core');
+		$this->load = &load_class('Loader', 'core');
 		$this->load->initialize();
 		log_message('info', 'Controller Class Initialized');
 	}
@@ -92,5 +242,4 @@ class CI_Controller {
 	{
 		return self::$instance;
 	}
-
 }
