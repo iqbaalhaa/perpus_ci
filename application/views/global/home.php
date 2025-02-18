@@ -22,7 +22,7 @@
 					<img src="<?php echo base_url(); ?>assets2/img/bb.jpg"> <!-- random image -->
 				</div>
 				<div class="card-content teal center">
-					<a class="btn" href="<?php echo base_url(); ?>Buku/profile">Daftar Buku</a>
+					<a class="btn" href="<?php echo base_url(); ?>Buku/list_buku">Daftar Buku</a>
 				</div>
 			</div>
 		</div>
@@ -30,10 +30,10 @@
 		<div class="col m6 s12">
 			<div class="card">
 				<div class="card-image waves-effect waves-block waves-light">
-					<img src="<?php echo base_url(); ?>assets2/img/aa.jpg"> <!-- random image -->
+					<img src="<?php echo base_url(); ?>assets2/img/fotobg1.jpg"> <!-- random image -->
 				</div>
 				<div class="card-content teal center">
-					<a class="btn" href="<?php echo base_url(); ?>Buku/list_buku">Tentang Perpustakaan</a>
+					<a class="btn" href="<?php echo base_url(); ?>Buku/profile">Tentang Perpustakaan</a>
 				</div>
 			</div>
 		</div>

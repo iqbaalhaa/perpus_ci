@@ -73,7 +73,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="<?php echo base_url(); ?>assets2/img/gedung.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="<?php echo base_url(); ?>assets2/img/fotobg2.jpg" alt="Unsplashed background img 1"></div>
   </div>
   <!-- Slider end -->
 
